@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-public: 'Public', sans-serif;
+
+  --color-grey: #808080;
+
+  --color-violet: #824cff;
+  --color-violet-light: #e2deed;
+  --color-violet-dark: #6d0ff1;
+
+  --color-purple: #998dbf;
+  --color-purple-light: #ebe8f1;
+  --color-purple-dark: #6e5ca3;
+
+  --color-red: #df245c;
+  --color-red-light: #fad6e3;
+  --color-red-dark: #a82443;
+
+  --color-green: #389b30;
+  --color-green-light: #d6f6d7;
+  --color-green-dark: #287525;
+
+  --color-blue: #3c94d8;
+  --color-blue-light: #b2e5ff;
+  --color-blue-dark: #1f5580;
+
+  --color-teal: #40a7aa;
+  --color-teal-light: #ccffe9;
+  --color-teal-dark: #2c7780;
+
+  --color-yellow: #f8d117;
+  --color-yellow-light: #feffcf;
+  --color-yellow-dark: #c39101;
+}
+
+body {
+  @apply font-public bg-purple-light;
+}
