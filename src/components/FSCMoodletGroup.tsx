@@ -1,11 +1,11 @@
 import React from 'react';
-import { FCSMoodlet } from '@/components/FSCMoodlet';
-import { DisplayMode, FSCState, FSCType } from '@/types/fsc-types';
+import { FSCMoodlet } from '@/components/FSCMoodlet';
+import { FSCDisplayMode, FSCState, FSCType } from '@/types/fsc-types';
 
 
 export interface FSCGroupProps extends React.HtmlHTMLAttributes<HTMLElement> {
   states?: Record<FSCType, FSCState>;
-  displayMode?: DisplayMode;
+  displayMode?: FSCDisplayMode;
 }
 
 export const FSCMoodletGroup: React.FC<FSCGroupProps> = ({
@@ -21,13 +21,13 @@ export const FSCMoodletGroup: React.FC<FSCGroupProps> = ({
 
   const statesKeys = Object.keys(states) as FSCType[];
   const getMoodlet = statesKeys.map((type, i) => {
-    return <FCSMoodlet
+    return <FSCMoodlet
       key={i}
       displayMode={displayMode}
       fcsType={type}
       initialState={states[type]}
     >
-    </FCSMoodlet>
+    </FSCMoodlet>
   })
   return (
     <div className='flex gap-3' {...props} >

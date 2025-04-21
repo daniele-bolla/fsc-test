@@ -4,7 +4,7 @@ import useFSCStateMachine from '@/hooks/useFSCStateMachine';
 import { match } from '@/utils/match';
 import { MoodletButton, MoodletButtonVariant } from '@/components/MoodletButton';
 
-export interface FCSMoodletProps extends React.HTMLAttributes<HTMLElement> {
+export interface FSCMoodletProps extends React.HTMLAttributes<HTMLElement> {
   displayMode?: FSCDisplayMode;
   initialState?: FSCState;
   fcsType: FSCType
@@ -26,7 +26,7 @@ const getVariantFromState = {
   "not-required": "inactive"
 };
 
-export const FCSMoodlet: React.FC<FCSMoodletProps> = ({
+export const FSCMoodlet: React.FC<FSCMoodletProps> = ({
   displayMode = 'letter',
   initialState = 'required',
   fcsType = 'F',
@@ -48,6 +48,7 @@ export const FCSMoodlet: React.FC<FCSMoodletProps> = ({
       onContextMenu={handleRightClick}
       variant={variant}
       disabled={isDisabled}
+      className={className}
       {...props}
     />
   );
