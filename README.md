@@ -23,8 +23,9 @@ I also added and commented on some extra features like `transitionTo` and `canTr
 
 For complex scenarios, this implementation could be replaced with the `XState` library, although that would require adapting the API to XState’s machine creation syntax. I intentionally avoided external libraries to showcase and explore how to work with this pattern from scratch.
 
-Another possible improvement would be adding a context/provider to manage different FSC moodlet groups across the app more easily. I haven’t implemented this yet, but it’s a promising direction.
+Another possible improvement would be adding a context/provider to manage different FSC moodlet groups across the app more easily. I haven’t implemented this yet, but it could be done later on.
 
 I also separated the UI component (`MoodletButton`) for better maintainability. It could be further enhanced by supporting different variants, styles, or sizes in a flexible way.
+Noticed that i used sizes from Figma but doubled.
 
-I didn't add any unit test anyway i would be happy to do it. Please let me know if that's a requirement.
+I have just added a simple unit test for the main component. Please let me know if you want tot see more.

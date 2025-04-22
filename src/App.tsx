@@ -26,7 +26,7 @@ function App() {
                 </div>
                 <div className="flex flex-col items-center">
                   <span className="text-gray-600 mb-2">Icon</span>
-                  <MoodletButton displayMode="icon" icon={<LogoIcon className="w-3 h-4" />} variant="primary" isReadOnly />
+                  <MoodletButton displayMode="icon" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="primary" isReadOnly />
                 </div>
                 <div className="flex flex-col items-center">
                   <span className="text-gray-600 mb-2">Ellipsis</span>
@@ -38,11 +38,11 @@ function App() {
                 </div>
                 <div className="flex flex-col items-center">
                   <span className="text-gray-600 mb-2">Icon L</span>
-                  <MoodletButton displayMode="iconL" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="primary" isReadOnly />
+                  <MoodletButton displayMode="iconL" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="primary" isReadOnly />
                 </div>
                 <div className="flex flex-col items-center">
                   <span className="text-gray-600 mb-2">Icon R</span>
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="primary" isReadOnly />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="primary" isReadOnly />
                 </div>
               </div>
             </div>
@@ -58,64 +58,64 @@ function App() {
                 {/* Primary | Active */}
                 <div className="text-gray-600">Primary | Active</div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="primary" isReadOnly />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="primary" isReadOnly />
                 </div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="primary" />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="primary" />
                 </div>
 
                 {/* Inactive */}
                 <div className="text-gray-600">Inactive</div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="inactive" isReadOnly />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="inactive" isReadOnly />
                 </div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="inactive" />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="inactive" />
                 </div>
 
                 {/* Secondary | Planning */}
                 <div className="text-gray-600">Secondary | Planning</div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="secondary" isReadOnly />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="secondary" isReadOnly />
                 </div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="secondary" />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="secondary" />
                 </div>
 
                 {/* Blue | Released */}
                 <div className="text-gray-600">Blue | Released</div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="blue" isReadOnly />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="blue" isReadOnly />
                 </div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="blue" />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="blue" />
                 </div>
 
                 {/* Green | OK */}
                 <div className="text-gray-600">Green | OK</div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="green" isReadOnly />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="green" isReadOnly />
                 </div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="green" />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="green" />
                 </div>
 
                 {/* Red | Stop/Block */}
                 <div className="text-gray-600">Red | Stop/Block</div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="red" isReadOnly />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="red" isReadOnly />
                 </div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="red" />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="red" />
                 </div>
 
                 {/* Yellow | Warning */}
                 <div className="text-gray-600">Yellow | Warning</div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="yellow" isReadOnly />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="yellow" isReadOnly />
                 </div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} variant="yellow" />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} variant="yellow" />
                 </div>
 
                 {/* Divider */}
@@ -124,7 +124,7 @@ function App() {
                 {/* Disabled */}
                 <div className="text-gray-600">Disabled</div>
                 <div className="flex justify-center">
-                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-3 h-4" />} disabled={true} isReadOnly />
+                  <MoodletButton displayMode="iconR" content="LOR" icon={<LogoIcon className="w-[20px] h-[20px]" />} disabled={true} isReadOnly />
                 </div>
 
                 <div></div>

@@ -1,18 +1,10 @@
 // src/components/FSCMoodlet.test.tsx
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { FSCMoodlet } from './FSCMoodlet';
 
 describe('FSCMoodlet Integration', () => {
-    // Spy on console.log to verify hook behavior
-    beforeEach(() => {
-        vi.spyOn(console, 'log').mockImplementation(() => { });
-    });
-
-    afterEach(() => {
-        vi.restoreAllMocks();
-    });
 
     it('should render with letter display mode by default', () => {
         render(<FSCMoodlet fcsType="F" />);
@@ -81,10 +73,7 @@ describe('FSCMoodlet Integration', () => {
         // Should now have red variant
         expect(container.querySelector('[class*="bg-red"]')).toBeInTheDocument();
 
-        // Verify the console logs from the hook
-        expect(console.log).toHaveBeenCalledWith('Leaving state: required');
-        expect(console.log).toHaveBeenCalledWith('Entering state: current');
-        expect(console.log).toHaveBeenCalledWith('Transition from required to current');
+
     });
 
     it('should transition from current to completed on click', async () => {

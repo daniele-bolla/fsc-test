@@ -26,14 +26,17 @@ export const MoodletButton: React.FC<MoodletButtonProps> = ({
     duration-200 
     select-none
     rounded-full 
-    border-2
+    border-[2px]
     items-center 
     justify-center 
     cursor-pointer
     font-bold 
     rounded 
     transition-colors
+    text-[20px]
+    leading-[28px]
     `;
+
 
   const variantClasses = {
     primary: isReadOnly ? 'bg-violet-light border-violet text-violet cursor-text' : 'bg-violet border-violet text-white hover:bg-violet-dark hover:border-violet-dark',
@@ -49,9 +52,9 @@ export const MoodletButton: React.FC<MoodletButtonProps> = ({
     letter: ' h-[28px] w-[28px]',
     icon: ' h-[28px] w-[28px]',
     ellipsis: ' h-[28px] w-[28px]',
-    word: 'px-2 h-[28px]',
-    iconL: 'px-2 h-[28px]',
-    iconR: 'px-2 h-[28px]',
+    word: 'px-[8px] h-[28px]',
+    iconL: 'px-[8px] h-[28px]',
+    iconR: 'px-[8px] h-[28px]',
   };
 
   const renderContent = () => {
