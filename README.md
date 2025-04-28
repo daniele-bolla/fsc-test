@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 # Figma
-[Task description and design]([URL to navigate](https://www.figma.com/design/ipBS2d095lzw2l9CE2NwvI/React-component-test--Copy-?node-id=0-1&p=f&t=cUTGOABpORSvC4kO-0)
+[Task description and design](https://www.figma.com/design/ipBS2d095lzw2l9CE2NwvI/React-component-test--Copy-?node-id=0-1&p=f&t=cUTGOABpORSvC4kO-0)
 
 # Further improvement and explanation
 
